@@ -19,19 +19,7 @@ cd backend
 pip install -r requirements.txt
 ```
 
-### 2. Configure Gemini API Key
 
-The `.env` file is already configured in the backend folder:
-
-```bash
-cd backend
-cat .env
-# Should show: GEMINI_API_KEY=AIzaSyAArnVA3vhkOtHXwcJ5SmBcNN9T7QwxqrY
-```
-
-### 3. Start Backend Server
-
-```bash
 cd backend
 uvicorn main:app --reload
 ```
